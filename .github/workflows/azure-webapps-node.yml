@@ -21,7 +21,7 @@ jobs:
       run: sed -i 's/${directory_name}/${{env.SUB_DIR}}/g' ./public/.htaccess
 
     - name: after modify .htaccess
-      run: cat /public/.htaccess
+      run: cat ./public/.htaccess
     
     - name: Set up Node.js
       uses: actions/setup-node@v4
