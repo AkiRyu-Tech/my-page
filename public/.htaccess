@@ -1,2 +1,2 @@
 # sub ディレクトリ挿入する必要あり
-ErrorDocument 404 /{$directory_name}/404.html
+ErrorDocument 404 /${directory_name}/404.html
