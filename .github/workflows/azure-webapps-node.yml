@@ -18,7 +18,7 @@ jobs:
     - uses: actions/checkout@v4
     
     - name: rewrite sub directory sed
-      run: sed -i 's/${directory_name}/${{env.SUB_DIR}}' ./public/.htaccess
+      run: sed -i 's/${directory_name}/${{env.SUB_DIR}}/g' ./public/.htaccess
 
     - name: after modify .htaccess
       run: cat /public/.htaccess
