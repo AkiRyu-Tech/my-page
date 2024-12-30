@@ -55,3 +55,4 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           password: ${{ secrets.SERVER_PASSWORD }}
           server-dir: ${{ env.SUB_DIR }}/
+          local-dir: ./out/
