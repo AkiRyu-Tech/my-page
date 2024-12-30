@@ -54,4 +54,4 @@ jobs:
           server: ${{ secrets.SERVER_HOST }}
           username: ${{ secrets.SERVER_USER }}
           password: ${{ secrets.SERVER_PASSWORD }}
-          server-dir: ${{ env.SUB_DIR }}
+          server-dir: ${{ env.SUB_DIR }}/
